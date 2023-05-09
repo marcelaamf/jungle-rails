@@ -1,19 +1,24 @@
 Rails.application.routes.draw do
 
   get 'about', to: 'about#index'
+ 
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
 
 
   root to: 'products#index'
-  
- 
+   
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
-
   resource :cart, only: [:show] do
     post   :add_item
     post   :remove_item
   end
-
+  
   resources :orders, only: [:create, :show]
 
   namespace :admin do
