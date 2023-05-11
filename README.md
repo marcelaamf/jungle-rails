@@ -3,10 +3,10 @@
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
 ## Pictures
-!["Main page"]()
-!["Product detail page"]()
-!["My Cart"]()
-!["Admin Categories"]()
+!["Main page"](https://github.com/marcelaamf/jungle-rails/blob/master/docs/home_page.png?raw=true)
+!["Product detail page"](https://github.com/marcelaamf/jungle-rails/blob/master/docs/product_details.png?raw=true)
+!["My Cart"](https://github.com/marcelaamf/jungle-rails/blob/master/docs/my_cart.png?raw=true)
+!["Admin Categories"](https://github.com/marcelaamf/jungle-rails/blob/master/docs/Admin_categories.png?raw=true)
 
 ## Setup
 
